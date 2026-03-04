@@ -6,7 +6,8 @@ deployment_auto_approve "yolo" {
 }
 
 store "varset" "inputs" {
-  id = "varset-nzQefvPeGNjN8gpi"
+  id       = "varset-nzQefvPeGNjN8gpi"
+  category = "terraform"
 }
 
 deployment_group "group_0" {
