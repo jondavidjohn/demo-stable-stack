@@ -11,11 +11,7 @@ deployment_group "development" {
   ]
 }
 
-deployment_group "staging" {
-  auto_approve_checks = [
-    deployment_auto_approve.no_removals,
-  ]
-}
+deployment_group "staging" {}
 
 deployment_group "production" {}
 
