@@ -1,11 +1,5 @@
-deployment "dev" {
-  destroy = true
-}
+deployment "dev" {}
 
-deployment "prod" {
-  destroy = true
-}
+deployment "prod" {}
 
-deployment "staging" {
-  destroy = true
-}
+deployment "staging" {}
